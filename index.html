@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Booking Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+  <!-- Homepage -->
+  <section class="homepage">
+    <header>
+      <h1>Welcome to our Travel Booking Website</h1>
+      <!-- Search Form -->
+      <form class="search-form">
+        <input type="text" placeholder="Destination">
+        <input type="text" placeholder="Travel Dates">
+        <!-- Other relevant search details -->
+        <button type="submit">Search</button>
+      </form>
+    </header>
+    <section class="popular-destinations">
+      <h2>Popular Destinations</h2>
+      <!-- Popular Destinations Section -->
+
+    <div class="destination-card">
+      <img src="https://th.bing.com/th/id/OIP.KDWSRiTZEzhj3Iqr3VbeXwHaE8?pid=ImgDet&rs=1" alt="Destination 1">
+      <h3>Destination 1</h3>
+      <p>Maldives</p>
+      <a href="#">View Details</a>
+    </div>
+    <div class="destination-card">
+      <img src="https://th.bing.com/th/id/R.1206978f1cfb37cb34e2730634a0cd84?rik=yTfXnBwEVe%2fx3A&riu=http%3a%2f%2fstatic.businessinsider.com%2fimage%2f534400356bb3f7d4060aca5d%2fimage.jpg&ehk=ZUzQ2N3rnJnY2B8jqSDx35uhphPEmPL6K5MOhuq2n0A%3d&risl=&pid=ImgRaw&r=0" alt="Destination 2">
+      <h3>Destination 2</h3>
+      <p>Chicago</p>
+      <a href="#">View Details</a>
+    </div>
+    <div class="destination-card">
+      <img src="https://th.bing.com/th/id/R.0b773015b52edbc8f3415f1e80840a44?rik=I4EI202z%2fPmX%2fQ&riu=http%3a%2f%2fmedia.beam.usnews.com%2f97%2fbd%2f4151257142eaa4ee750ba02b0376%2f170619-affordabledestinationscomposite-stock.jpg&ehk=Bt85q54%2bbzN82gpTcySqhOxqA6d%2bt6qdta8JUF3cyH0%3d&risl=&pid=ImgRaw&r=0" alt="Destination 3">
+      <h3>Destination 3</h3>
+      <p>USA</p>
+      <a href="#">View Details</a>
+    </div>
+    <!-- Add more destination cards as needed -->
+  </section>
+  
+      <!-- Display popular destinations with images and descriptions -->
+    </section>
+    <section class="deals">
+      <h2>Deals</h2>
+      <!-- Deals Section -->
+
+    <div class="deal-card">
+      <img src="https://img.jakpost.net/c/2017/03/20/2017_03_20_23739_1489984971._large.jpg" alt="Deal 1">
+      <h3>Deal 1</h3>
+      <p>Description of Deal 1</p>
+      <a href="#">View Details</a>
+    </div>
+    <div class="deal-card">
+      <img src="https://besthoneymoonideas.com/wp-content/uploads/2021/06/Honeymoon-destinations-in-New-Zealand-940x701-1.png" alt="Deal 2">
+      <h3>Deal 2</h3>
+      <p>Description of Deal 2</p>
+      <a href="#">View Details</a>
+    </div>
+    <div class="deal-card">
+      <img src="https://blog.studentlifenetwork.com/wp-content/uploads/2019/05/SLN-Blog-8Destinations-1537x952-1-1024x634.jpg" alt="Deal 3">
+      <h3>Deal 3</h3>
+      <p>Description of Deal 3</p>
+      <a href="#">View Details</a>
+    </div>
+    <!-- Add more deal cards as needed -->
+  </section>
+  
+      <!-- Display travel deals -->
+    </section>
+    <section class="featured-packages">
+      <h2>Featured Travel Packages</h2>
+      <!-- Featured Travel Packages Section -->
+
+    <div class="package-card">
+      <img src="https://www.worldatlas.com/r/w1200-q80/upload/fe/e4/5d/shutterstock-398270146.jpg" alt="Package 1">
+      <h3>Package 1</h3>
+      <p>Description of Package 1</p>
+      <a href="#">View Details</a>
+    </div>
+    <div class="package-card">
+      <img src="https://static.businessinsider.com/image/54cfea306bb3f7d1181b774b/image.jpg" alt="Package 2">
+      <h3>Package 2</h3>
+      <p>Description of Package 2</p>
+      <a href="#">View Details</a>
+    </div>
+    <div class="package-card">
+      <img src="https://www.hotelscombined.com/news/wp-content/uploads/sites/314/2020/09/featured-image-GettyImages-657999550.jpg" alt="Package 3">
+      <h3>Package 3</h3>
+      <p>Description of Package 3</p>
+      <a href="#">View Details</a>
+    </div>
+    <!-- Add more package cards as needed -->
+  </section>
+  
+      <!-- Display featured travel packages -->
+    </section>
+  </section>
+
+  <!-- Destination Listings -->
+  <section class="destination-listings">
+    <h2>Destination Listings</h2>
+    <!-- Destination Listings -->
+<section class="destination-listings">
+  <h2>Destination Listings</h2>
+  
+  <!-- Filters -->
+  <div class="filters">
+    <label for="destination-filter">Filter by Destination:</label>
+    <select id="destination-filter">
+      <option value="all">All Destinations</option>
+      <option value="paris">Paris</option>
+      <option value="london">London</option>
+      <option value="new-york">New York</option>
+    </select>
+  </div>
+  
+  <!-- Display destination cards -->
+  <div class="destination-cards">
+    <!-- Destination Card 1 -->
+    <div class="card">
+      <img src="https://fthmb.tqn.com/fLczP6SmhFjcT4MwgZFND8L6p0w=/960x0/filters:no_upscale()/173170040-56a4042e3df78cf772805e49.jpg" alt="Paris">
+      <h3>Paris, France</h3>
+      <p>Discover the romantic charm of Paris, with its iconic landmarks such as the Eiffel Tower and Louvre Museum.</p>
+      <p class="price">$200 per night</p>
+      <button class="book-btn">Book Now</button>
+    </div>
+
+    <!-- Destination Card 2 -->
+    <div class="card">
+      <img src="https://th.bing.com/th/id/R.d8f397e056911a486743ed002ce649cb?rik=f9F1%2bZ49ws4wPg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-_VZro2pRUfI%2fUJXcBJbraOI%2fAAAAAAAAFVY%2fXpXIQmoN3Ig%2fs320%2flondon.jpg&ehk=AgRrqHLhg1pFZ5cd2YZixsXdg0VuWHkqwdZxY9g9SGU%3d&risl=&pid=ImgRaw&r=0" alt="London">
+      <h3>London, United Kingdom</h3>
+      <p>Explore the vibrant city of London, home to Buckingham Palace, Big Ben, and the British Museum.</p>
+      <p class="price">$180 per night</p>
+      <button class="book-btn">Book Now</button>
+    </div>
+
+    <!-- Destination Card 3 -->
+    <div class="card">
+      <img src="https://th.bing.com/th/id/OIP.M0u_hX3cNoTTrhGA8T2i6QHaFj?pid=ImgDet&rs=1" alt="New York">
+      <h3>New York, USA</h3>
+      <p>Experience the energy of the Big Apple, with its towering skyscrapers, Central Park, and Times Square.</p>
+      <p class="price">$220 per night</p>
+      <button class="book-btn">Book Now</button>
+    </div>
+  </div>
+</section>
+
+    <!-- Filters -->
+    <div class="filters">
+      <!-- Add filter options -->
+    </div>
+    <!-- Display destination cards with images, descriptions, and prices -->
+  </section>
+
+  <!-- Package Details -->
+  <section class="package-details">
+    <h2>Package Details</h2>
+    <!-- Package Details -->
+<section class="package-details">
+  <h2>Package Details</h2>
+  
+  <!-- Display detailed information about the package -->
+  <div class="package-info">
+    <h3>Paris, France Package</h3>
+    <p>Experience the romantic charm of Paris with our all-inclusive package. Enjoy a 5-day stay at a luxury hotel, explore iconic landmarks such as the Eiffel Tower and Louvre Museum, and indulge in French cuisine.</p>
+    <p class="price">$1500 per person</p>
+  </div>
+
+  <!-- Accommodation options -->
+  <div class="accommodation-options">
+    <h3>Accommodation Options</h3>
+    <ul>
+      <li>Luxury Hotel - $150 per night</li>
+      <li>Boutique Hotel - $100 per night</li>
+      <li>Apartment Rental - $80 per night</li>
+    </ul>
+  </div>
+
+  <!-- Add-on activities -->
+  <div class="addon-activities">
+    <h3>Add-on Activities</h3>
+    <ul>
+      <li>Eiffel Tower Dinner Cruise - $100 per person</li>
+      <li>Louvre Museum Guided Tour - $50 per person</li>
+      <li>Seine River Cruise - $30 per person</li>
+    </ul>
+  </div>
+
+  <!-- Booking options -->
+  <div class="booking-options">
+    <h3>Booking Options</h3>
+    <label for="accommodation-type">Accommodation Type:</label>
+    <select id="accommodation-type">
+      <option value="luxury-hotel">Luxury Hotel</option>
+      <option value="boutique-hotel">Boutique Hotel</option>
+      <option value="apartment">Apartment Rental</option>
+    </select>
+    <br>
+    <label for="add-on-activities">Add-on Activities:</label>
+    <select id="add-on-activities" multiple>
+      <option value="eiffel-tower-dinner">Eiffel Tower Dinner Cruise</option>
+      <option value="louvre-guided-tour">Louvre Museum Guided Tour</option>
+      <option value="seine-river-cruise">Seine River Cruise</option>
+    </select>
+    <br>
+    <button class="book-btn">Book Now</button>
+  </div>
+</section>
+
+    <!-- Display detailed information about the package, itinerary, accommodation options, transportation, activities, and pricing -->
+    <!-- Provide options for selecting variations (e.g., accommodation types, add-on activities) -->
+  </section>
+
+  <!-- Booking Process -->
+  <section class="booking-process">
+    <h2>Booking Process</h2>
+    <!-- Booking form with traveler information and payment -->
+    <!-- Step 1: Select a Package -->
+<h2>Select a Package</h2>
+<div id="package-list">
+  <!-- Package options dynamically generated here -->
+</div>
+
+<!-- Step 2: Enter Traveler Information and Make Payment -->
+<h2>Booking Form</h2>
+<form id="booking-form">
+  <input type="text" name="travelerName" placeholder="Traveler Name" required>
+  <input type="email" name="travelerEmail" placeholder="Traveler Email" required>
+  <select name="paymentMethod" required>
+    <option value="">Select Payment Method</option>
+    <option value="creditCard">Credit Card</option>
+    <option value="paypal">PayPal</option>
+    <option value="bankTransfer">Bank Transfer</option>
+  </select>
+  <button type="submit">Book Now</button>
+</form>
+
+
+  </section>
+
+  <!-- User Account -->
+  <section class="user-account">
+    <h2>User Account</h2>
+    
+      <!-- User authentication form -->
+      <form action="/login" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    
+        <button type="submit">Log In</button>
+      </form>
+    
+      <!-- User dashboard -->
+      <div class="user-dashboard">
+        <h3>Welcome, John Doe!</h3>
+        <!-- Display user information, booking history, etc. -->
+        <p>Booking history, upcoming trips, profile information, etc.</p>
+      </div>
+    
+      <!-- Booking management -->
+      <div class="booking-management">
+        <h3>Manage Bookings</h3>
+        <!-- Display and allow users to manage their bookings -->
+        <ul>
+          <li>Booking 1</li>
+          <li>Booking 2</li>
+          <li>Booking 3</li>
+        </ul>
+      </div>
+    </section>
+    
+    <!-- User authentication, user dashboard, booking management -->
+  </section>
+
+  
+<h2>Registration</h2>
+<form id="registration-form">
+  <input type="text" name="username" placeholder="Username" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <input type="password" name="password" placeholder="Password" required>
+  <button type="submit">Register</button>
+</form>
+
+<!-- User Login -->
+<h2>Login</h2>
+<form id="login-form">
+  <input type="email" name="email" placeholder="Email" required>
+  <input type="password" name="password" placeholder="Password" required>
+  <button type="submit">Login</button>
+</form>
+
+
+
+<!-- Submit Review -->
+<h2>Submit Review</h2>
+<form id="review-form">
+  <input type="text" name="destination" placeholder="Destination" required>
+  <textarea name="review" placeholder="Write your review" required></textarea>
+  <select name="rating" required>
+    <option value="">Select Rating</option>
+    <option value="1">1 Star</option>
+    <option value="2">2 Stars</option>
+    <option value="3">3 Stars</option>
+    <option value="4">4 Stars</option>
+    <option value="5">5 Stars</option>
+  </select>
+  <button type="submit">Submit</button>
+</form>
+
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
