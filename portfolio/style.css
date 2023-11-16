@@ -1,0 +1,359 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  .hamburger {
+    display: none;
+    float: right;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: #fff;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+    
+    nav {
+      display: none;
+    }
+    
+    nav.active {
+      display: block;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    nav.active li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
+  .hero {
+    background-image: url("img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #ccc;
+  }
+  
+  .about {
+    background-color: #f2f2f2;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    margin: 0
+}
+
+.about p {
+font-size: 1.2rem;
+line-height: 1.5;
+margin-bottom: 40px;
+}
+
+.services {
+padding: 100px 0;
+text-align: center;
+}
+
+.services h2 {
+margin: 0;
+}
+
+.services ul {
+list-style: none;
+margin: 40px 0 0 0;
+padding: 0;
+}
+
+.services li {
+display: inline-block;
+width: 30%;
+margin: 0 2%;
+text-align: left;
+padding: 20px;
+border-radius: 5px;
+background-color: #fff;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.services li i {
+font-size: 2rem;
+margin-bottom: 20px;
+}
+
+.services li h3 {
+margin: 0;
+}
+
+.services li p {
+font-size: 1rem;
+line-height: 1.5;
+}
+
+.skills {
+background-color: #f2f2f2;
+padding: 100px 0;
+}
+
+.skills h2 {
+margin: 0;
+text-align: center;
+}
+
+.skills ul {
+list-style: none;
+margin: 40px 0 0 0;
+padding: 0;
+}
+
+.skills li {
+margin-bottom: 20px;
+}
+
+.skills li span {
+display: inline-block;
+width: 100px;
+font-weight: bold;
+}
+
+.skills li .bar {
+display: inline-block;
+height: 10px;
+width: 200px;
+background-color: #ccc;
+margin-left: 10px;
+position: relative;
+}
+
+.skills li .bar:before {
+content: "";
+display: block;
+height: 100%;
+width: 50%;
+background-color: #4CAF50;
+position: absolute;
+top: 0;
+left: 0;
+border-radius: 5px;
+}
+
+.portfolio {
+padding: 100px 0;
+text-align: center;
+}
+
+.portfolio h2 {
+margin: 0;
+}
+
+.portfolio ul {
+list-style: none;
+margin: 40px 0 0 0;
+padding: 0;
+}
+
+.portfolio li {
+display: inline-block;
+width: 30%;
+margin: 0 2%;
+text-align: left;
+padding: 20px;
+border-radius: 5px;
+background-color: #fff;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio li img {
+width: 100%;
+border-radius: 5px;
+}
+
+.portfolio li h3 {
+margin: 0;
+margin-top: 10px;
+}
+
+.contact {
+padding: 100px 0;
+text-align: center;
+}
+
+.contact h2 {
+margin: 0;
+}
+
+.contact form {
+max-width: 500px;
+margin: 40px auto 0 auto;
+text-align: left;
+}
+
+.contact label {
+display: block;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+border: none;
+margin-bottom: 20px;
+}
+
+.contact textarea {
+height: 150px;
+}
+
+.contact button[type="submit"] {
+background-color: #4CAF
+50;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+.contact button[type="submit"]:hover {
+background-color: #2E8B57;
+}
+
+@media (max-width: 768px) {
+.services li {
+width: 100%;
+margin-bottom: 20px;
+}
+
+.portfolio li {
+width: 100%;
+margin-bottom: 20px;
+}
+}
+
+@media (max-width: 480px) {
+.header h1 {
+font-size: 2rem;
+}
+
+.header p {
+font-size: 1rem;
+}
+
+.about .row {
+flex-direction: column;
+}
+
+.about .col {
+width: 100%;
+margin-bottom: 20px;
+}
+
+.services li {
+width: 100%;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.skills li .bar {
+width: 100%;
+margin: 10px 0;
+}
+
+.portfolio li {
+width: 100%;
+margin-bottom: 20px;
+}
+
+.contact form {
+max-width: none;
+}
+}  
